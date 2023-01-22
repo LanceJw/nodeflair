@@ -1,0 +1,29 @@
+#JobInfo {
+    position: relative;
+    top: 0;
+    transition: top ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+#JobInfo:hover {
+    transition: top ease-in-out 0.3s;
+    top: -4px;
+    box-shadow: 0px 5px 10px 0px #cccccc;
+}
+
+#border::after {
+    content: " ";
+    display: block;
+    width: 95%;
+    margin: 10px auto -15px;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+
+.inactive {
+    background-color: 'red';
+}
+
+.active {
+    border: 3px solid #2ebf6f
+}
